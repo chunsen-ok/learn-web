@@ -1,16 +1,17 @@
+@import "form.css";
+
 header h1 {
     text-align: center;
 }
 
 .hr-ul {
+    padding: 0em;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     list-style-type: none;
 }
 
 .hr-ul li {
-    margin-left: 10px;
-    margin-right: 10px;
+    padding-left: 1em;
+    padding-right: 1em;
 }
