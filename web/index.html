@@ -7,35 +7,62 @@
         <meta name="author" content="chunsen-ok">
         <meta name="description" content="Learn web programming.">
         <link rel="stylesheet" href="/web/styles/style.css">
-        <script src="https://kit.fontawesome.com/52f5c6967a.js" crossorigin="anonymous"></script>
         <script type="module" src="/web/scripts/app.js"></script>
-        <script type="module">
+        <script type="module" src="https://kit.fontawesome.com/52f5c6967a.js" crossorigin="anonymous"></script>
+        <!-- <script type="module">
             import {hello} from "/web/scripts/helper.js";
             hello();
-        </script>
+        </script> -->
     </head>
     <body>
         <header>
             <h1>Web App</h1>
             <ul class="hr-ul">
-                <li><a href="/web/pages/login.html">Login</a></li>
+                <li><a href="/web/pages/login.html">登录</a></li>
                 <!-- <li><a href="/web/pages/blank.html">Blank</a></li> -->
-                <li><a href="/web/pages/about.html">About</a></li>
+                <li><a href="/web/pages/about.html">关于</a></li>
+                <li><a href="/web/pages/play.html">Play</a></li>
             </ul>
         </header>
-        <hr>
-        <main></main>
-        <h2>Resources</h2>
-        <h3>C++</h3>
-        <h3>Rust</h3>
-        <h3>Go</h3>
-        <h3>JavaScript</h3>
-        <ul>
-            <li><a href="https://javascript.info/" target="_blank">JAVASCRIP.INFO: The Modern JavaScript Tutorial</a></li>
-            <li><a href="https://developer.mozilla.org/zh-CN/docs/Web/Reference" target="_blank">MDN - Developer Guides</a></li>
-            <li><a href="https://bellard.org/quickjs/" target="_blank">QuickJS</a></li>
-        </ul>
-        <hr>
+        <main>
+            <hr>
+            <div class="body">
+                <ul class="list">
+                    <li class="list-1">
+                        <h2>网络资源</h2>
+                        <ul>
+                            <li class="list-2">
+                                <h3>C++</h3>
+                                <ul>
+                                    <li class="list-3"><a href="https://en.cppreference.com/w/" target="_blank">C++ reference</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-2">
+                                <h3>Rust</h3>
+                            </li>
+                            <li class="list-2">
+                                <h3>Go</h3>
+                            </li>
+                            <li class="list-2">
+                                <h3>JavaScript</h3>
+                                <ul>
+                                    <li class="list-3"><a href="https://javascript.info/" target="_blank">JAVASCRIPT.INFO: The Modern JavaScript Tutorial</a></li>
+                                    <li class="list-3"><a href="https://developer.mozilla.org/zh-CN/docs/Web/Reference" target="_blank">MDN - Developer Guides</a></li>
+                                    <li class="list-3"><a href="https://bellard.org/quickjs/" target="_blank">QuickJS</a></li>
+                                </ul>
+                            </li>
+                            <li class="list-2">
+                                <h3>CSS</h3>
+                                <ul>
+                                    <li class="list-3"><a href="https://zh.learnlayout.com/" target="_blank">学习CSS布局</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </main>
         <footer>
         </footer>
     </body>

@@ -1,10 +1,25 @@
 @import "form.css";
+@import "list.css";
 
 body {
-    background-color: #E2E2E2;
+    background-color: #EFEDED;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+    margin: 8px;
 }
 
 header h1 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
     text-align: center;
 }
 
@@ -16,6 +31,10 @@ header h1 {
 }
 
 .hr-ul li {
-    padding-left: 1em;
-    padding-right: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.body {
+    margin: 16px;
 }

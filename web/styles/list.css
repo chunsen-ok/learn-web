@@ -1,0 +1,11 @@
+.list {
+    padding: 0px;
+}
+
+.list-1, .list-2 {
+    list-style-type: none;
+}
+
+.list-3 {
+    list-style-type: disc;
+}
