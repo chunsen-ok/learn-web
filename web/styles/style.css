@@ -1,5 +1,9 @@
 @import "form.css";
 
+body {
+    background-color: #E2E2E2;
+}
+
 header h1 {
     text-align: center;
 }

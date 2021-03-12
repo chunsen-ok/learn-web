@@ -1,13 +1,14 @@
+"use strict";
+
 function formatFooter() {
     try {
-        var req = new XMLHttpRequest();
+        let req = new XMLHttpRequest();
         req.open('GET', '/api/v1/miscs/now');
         req.responseType = 'json';
         req.onload = function () {
-            var footerEle = document.querySelector('footer');
-            var nowEle = document.createElement('p');
-            nowEle.textContent = "当前时间：" + req.response.data;
-            footerEle.appendChild(nowEle);
+            const nowStr = "现在是：" + req.response.data + " .";
+            let footerEle = document.querySelector('footer');
+            footerEle.innerHTML = '<p><i class="far fa-bell"></i> 欢迎访问：<a href="https://github.com/chunsen-ok" target="_blank">Github</a>. <span>{0}</span></p>'.replace('{0}', nowStr);
         }
         req.send();
     } catch(e) {
